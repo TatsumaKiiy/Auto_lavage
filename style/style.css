@@ -19,6 +19,7 @@ section
   justify-content: space-between;
   align-items:center;
   background:#fff;
+  margin-top:25px ;
 }
 header
 {
@@ -36,6 +37,9 @@ header .logo
   position: relative;
   max-width: 20px;
 }
+.content{
+  margin-top: -250px;
+}
 img
 {
   width: 120px;
@@ -45,6 +49,12 @@ header ul
 {
     position:relative;
     display: flex;
+}
+header ul li:nth-child(1){
+  margin-right: 50px;
+}
+header ul li:nth-child(2){
+  margin-right: 50px;
 }
 header ul li
 {
@@ -57,6 +67,7 @@ header ul li a
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
+    
 }
 span
 {
@@ -68,4 +79,40 @@ button
   height:50px;
   border-radius:30px;
   background-color:#D472C9;
+}
+
+/* Autres styles ici */
+
+/* Styles pour le menu déroulant */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dropdown-btn {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
 }

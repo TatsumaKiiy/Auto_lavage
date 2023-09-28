@@ -14,23 +14,26 @@ else
 switch ($uc) {
     case 'accueil':
         include("vues/v_accueil.php");
-        break;
+    break;
 
     case 'prestations':
         include("vues/v_prestations.php");
-        break;
+    break;
 
-    case 'produits':
-        include("vues/v_produits.php");
-        break;
-
-    case 'administrer':
-        include("controleurs/c_gestionProduits.php");
-        break;
-
-    case 'recherche':
-        include("vues/v_recherche.php"); // Vous aviez une erreur de nom de fichier ici
-        break;
+    case 'nosLavages':
+        include("vues/v_nosLavages.php");
+    break;
+        
+    case 'nosCoffrets':
+        include("vues/v_nosCoffrets.php");
+    break;
+    case 'autresProd':
+        include("vues/v_autresProd.php");
+    break;
+    case 'autresPre':
+        include("vues/v_autresPre.php");
+    break;
+    
 }
 
 include("vues/v_pied.php");
