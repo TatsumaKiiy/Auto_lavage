@@ -8,7 +8,6 @@
 		<a href="index.php?uc=accueil">Accueil</a>
 		<a href="index.php?uc=prestations">Prestations </a>
 		<a href="index.php?uc=produits">Produits </a>
-		<a  href="index.php?uc=administrer&action=connexion"> Administrer </a>
 		<a href="index.php?uc=voirProduits&action=recherche"> Recherche </a>
 	
 	</nav>

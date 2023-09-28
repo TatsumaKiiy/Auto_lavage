@@ -82,7 +82,7 @@
             <p>Prix : 39,99 €</p>
             <button onclick="addToCart('Produit 3', 39.99);">Ajouter au panier</button>
         </div>
-        <!-- Ajoutez plus de produits ici -->
+        <!-- a terminer -->
     </section>
 
     <footer>
