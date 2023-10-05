@@ -2,9 +2,7 @@
 session_start();
 include("vues/v_entete.php");
 include("vues/v_bandeau.php");
-require_once("util/class.PDO.HTAuto.inc.php");
 
-$pdo = PdoHtAuto::getPdoHtAuto();
 
 if (!isset($_REQUEST['uc']))
     $uc = 'accueil';
