@@ -31,6 +31,9 @@ switch ($uc) {
     case 'autresPre':
         include("vues/v_autresPre.php");
     break;
+    case 'contact':
+        include("vues/v_contact.php");
+    break;
     
 }
 

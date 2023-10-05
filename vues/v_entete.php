@@ -27,7 +27,7 @@
 						
 					</div>
 				</li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="index.php?uc=contact">Contact</a></li>
 			</ul>
 		</header>
 
