@@ -43,7 +43,7 @@ textarea {
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #D472C9);
+  background: linear-gradient(135deg, transparent 20%, #a54f9b);
   position: absolute;
 }
 
@@ -272,7 +272,7 @@ textarea.input {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #D472C9, #D472C9);
+  background: linear-gradient(to bottom, #D472C9, #a54f9b);
   bottom: 50%;
   right: 50%;
   transform: translate(-40%, 38%);

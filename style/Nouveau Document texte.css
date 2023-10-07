@@ -1,0 +1,171 @@
+/* Import de la police Poppins depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Réinitialisation des marges et des rembourrages par défaut et utilisation de box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Définition de la police par défaut pour le corps du document */
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+
+}
+
+/* Style des boutons */
+.btn_d {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style de la section principale */
+section {
+    position: relative;
+    width: 100%;
+    min-height: 50px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00000000;
+    
+    /* bug margin top  */
+    margin-top: 75px;
+
+    margin-left: -25px;
+    
+}
+
+/* Style de la section mid */
+.mid {
+    position:absolute;
+    width: 100%;
+    min-height: 100px;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff00;
+    
+    /* bug margin top  */
+    margin-top: 1400px;
+    margin-left: -25px;
+    
+}
+
+/* Style de l'en-tête (header) */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -35px;
+}
+
+/* Style du logo */
+header .logo {
+    position: relative;
+    max-width: 20px;
+}
+
+/* Style de l'image */
+img {
+    width: 120px;
+    height: 120px;
+}
+
+/* Style de la liste de navigation */
+header ul {
+    position: relative;
+    display: flex;
+}
+
+/* Style des éléments de la liste de navigation */
+header ul li:nth-child(1) {
+    margin-right: 50px;
+}
+
+header ul li:nth-child(2) {
+    margin-right: 50px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+/* Style de la couleur spéciale (span) */
+span {
+    color: #D472C9;
+}
+
+/* Style du bouton */
+button {
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #D472C9;
+    margin-top: 25px;
+    border: none;
+}
+
+/* Styles pour le menu déroulant */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropdown-btn {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Augmentez la taille du texte dans h2 */
+h2 {
+  font-size: 50px; /* Choisissez la taille de police souhaitée en pixels */
+}
+
+/* Augmentez la taille du texte dans p */
+p {
+  font-size: 18px; /* Choisissez la taille de police souhaitée en pixels */
+  line-height: 1.05; /* Réglage de l'espacement entre les lignes à 1 (plus compact) */
+  margin-bottom: 10px; /* Ajoute une petite marge en bas pour séparer les paragraphes */
+  max-height: calc(4 * 1.4em); /* 1.2em est la hauteur typique d'une ligne, ajustez si nécessaire */
+  overflow: hidden;
+}
