@@ -54,10 +54,10 @@
 
             <div class="links">
               <ul>
-                <li><a href="#">Prestations</a></li>
-                <li><a href="#">Produits</a></li>
+                <li><a href="index.php?uc=prestations">Prestations</a></li>
+                <li><a href="index.php?uc=">Produits</a></li>
                 <li><a href="index.php?uc=contact">Contact</a></li>
-                <li><a href="#" class="btn">Se connecter</a></li>
+                <li><a href="index.php?uc=login" class="btn">Se connecter</a></li>
               </ul>
             </div>
 
@@ -86,7 +86,7 @@
             </div>
 
             <div class="right">
-              <img src="./img/product.png" alt="Product Image" class="product" />
+              <img src="images/img/carwash.png" alt="Product Image" class="product" />
             </div>
           </div>
         </div>

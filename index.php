@@ -38,8 +38,9 @@ switch ($uc) {
         include("vues/v_entete.php");
         include("vues/v_autresPre.php");
     break;
-    case 'contact':
-        include("vues/v_contact.php");
+    case 'login':
+        include("vues/v_login.php");
+    
     break;
     
 }
