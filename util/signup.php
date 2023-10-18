@@ -3,7 +3,7 @@
 $servername ="localhost";
 $username = "root";
 $password = "";
-$dbname = "codeflix";
+$dbname = "lavage_auto";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -14,7 +14,7 @@ if($conn->connect_error){
 $name = $_POST["name"];
 $email = $_POST["email"];
 $password = $_POST["password"];
-$salt = "codeflix";
+$salt = "lavage_auto";
 $password_encrypted = sha1($password.$salt);
 
 

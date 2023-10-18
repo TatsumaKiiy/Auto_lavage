@@ -211,11 +211,12 @@ input {
 }
 
 .social-container {
-	margin: 20px 0;
+	color: transparent;
+	margin: 20px ;
 }
 
 .social-container a {
-	border: 1px solid #DDDDDD;
+	border: 1px solid #dddddd00;
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
