@@ -30,7 +30,10 @@ switch ($uc) {
         include("vues/v_login.php");
     
     break;
+    case 'devis':
+        include("vues/v_devis.php");
     
+    break;
 }
 
 include("vues/v_pied.php");

@@ -1,165 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page With Light/Dark Mode</title>
-    <link rel="stylesheet" href="style/new.css" />
-  </head>
-  <body>
-    <main>
-      <div class="big-wrapper light">
-        <img src="./img/shape.png" alt="" class="shape" />
-
-        <header>
-          <div class="container">
-            <div class="logo">
-              <img src="./images/RD.png" alt="Logo" />
-              <h3>Royal Detailing</h3>
-            </div>
-
-            <div class="links">
-              <ul>
-                <li><a href="index.php?uc=prestations">Prestations</a></li>
-                <li><a href="index.php?uc=">Produits</a></li>
-                <li><a href="index.php?uc=contact">Contact</a></li>
-                <li><a href="index.php?uc=login" class="btn">Se connecter</a></li>
-              </ul>
-            </div>
-
-            <div class="overlay"></div>
-
-            <div class="hamburger-menu">
-              <div class="bar"></div>
-            </div>
-          </div>
-        </header>
-
-        
+<html>
+<head>
+    <title>Nos Prestations</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
- 
-        body {
-            margin: 2%;
-            justify-content: center;
-            overflow: hidden;
-        }
- 
-        .box-wrapper {
-            height: 95vh;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
- 
-        #box1 {
+        .prestation {
+            border: 1px solid #ccc;
+            margin: 10px;
             padding: 10px;
-            border: solid 1px green
         }
- 
-        #box2 {
-            padding: 8px;
-            border: solid 1px blue
-        }
- 
-        #box3 {
-            padding: 10px;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: row;
-            border: solid 1px green
-        }
- 
-        #box4 {
-            flex-grow: 2;
-            border: solid 1px orange
-        }
- 
-        .middle-column {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
- 
-        .middle-column div {
-            flex-grow: 1;
-            margin: 0 8px;
-            border: solid 1px red;
-        }
- 
-        .middle-column div+div {
-            margin-top: 8px
-        }
- 
-        #box8 {
-            flex-grow: 1;
-            border: solid 1px black
+
+        .prestation img {
+            max-width: 100px;
+            max-height: 100px;
         }
     </style>
-        <div class="box_menu">
-           <div class="txt-prestations">
-              <h3>Nos Prestations</h3>
-           </div>
-              <div class="box-wrapper">
-                    <div id="box1">
-                        Box 1
-                    </div>
-            
-                    <div id="box2">
-                        Box 2
-                    </div>
-            
-                    <div id="box3">
-                        <div id="box4">
-                            Box 4
-                        </div>
-                        <div class="middle-column">
-                            <div id="box5">
-                                Box 5
-                            </div>
-                            <div id="box6">
-                                Box 6
-                            </div>
-                            <div id="box7">
-                                Box 7
-                            </div>
-                        </div>
-                        <div id="box8">
-                            Box 8
-                        </div>
-                    </div>
-                </div>
+</head>
+<body>
+    <h1>Nos Prestations :</h1>
 
+    <div class="prestation">
+        <h2>(1) Nom : Lavage extérieur</h2>
+        <img src="lien_de_votre_image1.jpg" alt="Lavage extérieur">
+        <p><strong>Caractéristiques :</strong> Le lavage extérieur est l’étape indispensable pour une brillance incomparable et un entretien total de votre véhicule. Carrosserie, vitres et pare-brise et jantes.</p>
+        <p><strong>Description (à mettre dans le devis) :</strong> Temps estimé : 2 heures, prise de rendez-vous nécessaire.</p>
+        <p><strong>Prix :</strong> 69,00 euros</p>
+    </div>
 
-           
-              </div>
+    <div class="prestation">
+        <h2>(2) Nom : Lavage intérieur</h2>
+        <img src="lien_de_votre_image2.jpg" alt="Lavage intérieur">
+        <p><strong>Caractéristiques :</strong> Quoi de mieux que le lavage intérieur pour se sentir agréablement bien dans votre voiture ? Aspiration, lavage des moquettes et tissus et nettoyage des plastiques.</p>
+        <p><strong>Description (à mettre dans le devis) :</strong> Temps estimé : 1 heure, prise de rendez-vous nécessaire.</p>
+        <p><strong>Prix :</strong> 59,00 euros</p>
+    </div>
 
+    <div class="prestation">
+        <h2>(3) Nom : Lavage extérieur et intérieur</h2>
+        <img src="lien_de_votre_image3.jpg" alt="Lavage extérieur et intérieur">
+        <p><strong>Caractéristiques :</strong> Le lavage extérieur et intérieur est la formule all exclusive pour votre voiture et votre bien-être de conduite. Carrosserie, vitres et pare-brise, jantes, aspiration, lavage moquettes et tissus et nettoyage des plastiques.</p>
+        <p><strong>Description (à mettre dans le devis) :</strong> Temps estimé : 3 heures, prise de rendez-vous nécessaire.</p>
+        <p><strong>Prix :</strong> 109,00 euros</p>
+    </div>
 
+    <div class="prestation">
+        <h2>(4) Nom : Traitement céramique</h2>
+        <img src="lien_de_votre_image4.jpg" alt="Traitement céramique">
+        <p><strong>Caractéristiques :</strong> Un traitement céramique est une innovation technologique utilisée pour protéger la carrosserie d'un véhicule.</p>
+        <p><strong>Description (à mettre dans le devis) :</strong> Temps estimé : 1 heure, prise de rendez-vous nécessaire. (Nécessite un lavage extérieur au préalable)</p>
+        <p><strong>Prix :</strong> 39,00 euros</p>
+    </div>
 
-        </div>
-
-     
-
-        <div class="bottom-area">
-          <div class="container">
-            <button class="toggle-btn">
-              <i class="far fa-moon"></i>
-              <i class="far fa-sun"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <!-- JavaScript Files -->
-
-    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-    <script src="util/app.js"></script>
-  </body>
+    <div class="prestation">
+        <h2>(5) Nom : Lustrage intégral</h2>
+        <img src="lien_de_votre_image5.jpg" alt="Lustrage intégral">
+        <p><strong>Caractéristiques :</strong> Il regroupe de multiples techniques qui cherchent à nourrir le vernis ou la peinture d'une carrosserie afin de lui donner un aspect brillant, voire un effet miroir.</p>
+        <p><strong>Description (à mettre dans le devis) :</strong> Temps estimé : 2 heures, prise de rendez-vous nécessaire. (Nécessite un lavage extérieur au préalable)</p>
+        <p><strong>Prix :</strong> 49,00 euros</p>
+    </div>
+</body>
 </html>

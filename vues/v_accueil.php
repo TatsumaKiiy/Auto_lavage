@@ -55,8 +55,9 @@
             <div class="links">
               <ul>
                 <li><a href="index.php?uc=prestations">Prestations</a></li>
-                <li><a href="index.php?uc=">Produits</a></li>
+                <li><a href="index.php?uc=produits">Produits</a></li>
                 <li><a href="index.php?uc=contact">Contact</a></li>
+                <li><a href="index.php?uc=devis">Devis</a></li>
                 <li><a href="index.php?uc=login" class="btn">Se connecter</a></li>
               </ul>
             </div>
