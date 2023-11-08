@@ -20,23 +20,11 @@ switch ($uc) {
         include("vues/v_prestations.php");
     break;
 
-    case 'nosLavages':
+    case 'produits':
         include("vues/v_entete.php");
-        include("vues/v_nosLavages.php");
+        include("vues/v_produits.php");
     break;
         
-    case 'nosCoffrets':
-        include("vues/v_entete.php");
-        include("vues/v_nosCoffrets.php");
-    break;
-    case 'autresProd':
-        include("vues/v_entete.php");
-        include("vues/v_autresProd.php");
-    break;
-    case 'autresPre':
-        include("vues/v_entete.php");
-        include("vues/v_autresPre.php");
-    break;
     case 'login':
         include('controler/connexion.php');
         include("vues/v_login.php");
@@ -45,7 +33,10 @@ switch ($uc) {
         include('vues/v_entete.php');
         include("vues/v_contact.php");
     break;
+    case 'devis':
+        include("vues/v_devis.php");
     
+    break;
 }
 
 include("vues/v_pied.php");

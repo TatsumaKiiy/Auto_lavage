@@ -87,6 +87,30 @@ header .container {
   cursor: pointer;
 }
 
+/*box menu */
+.box_menu{
+  width: 1450px;
+  height: 850px;  
+  border: 15px solid green;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+} 
+.txt-prestations{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo img {
   width: 40px;
   margin-right: 0.6rem;

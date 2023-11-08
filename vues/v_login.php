@@ -13,9 +13,7 @@
 <form action="index.php?uc=login&action=register" method="POST">
 	<h1>Créer un compte</h1>
 	<div class="social-container">
-		<a href="#" class="social"><i class="fa fa-facebook"></i></a>
-		<a href="#" class="social"><i class="fa fa-google"></i></a>
-		<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+		<span></span>
 	</div>
 	<span>or use your email for registration</span>
 	<input type="text" name="nom" placeholder="Name">
@@ -27,6 +25,7 @@
 
 <div class="container" id="container">
 <div class="form-container sign-in-container">
+
 
 <form action="index.php?uc=login&action=signin"method="POST">
 	<h1>Se connecter</h1>

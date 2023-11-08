@@ -1,36 +1,4 @@
-<!--
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Royal Detailing 971</title>
-    <link rel="stylesheet" href="style/style.css" type="text/css">
-</head>
-<body>
-    <section>
-        <div class="content">
-            <div class="textBox">
-                <h2>Ce n'est pas juste un lavage<br>C'est <span>du Detailing</span></h2>
-                <p>Ravivez la beauté de votre voiture avec Royal Detailling</p>
-                <p> en detailing car wash pour une brillance exceptionnelle</p>
-                <div class="btn_d">
-                    <button type="button">Découvrir</button>
-                </div>
-            </div>
-        </div>
-    </section>
-  
-        <script src="script.js"></script>
-    <div class ="mid">
-        <div class="midBox">
-            <h2>Ce n'est pas juste un lavage<br>C'est <span>du Detailing</span></h2>
-            <p>Ravivez la beauté de votre voiture avec Royal Detailling</p>
-            <p> en detailing car wash pour une brillance exceptionnelle</p>
-    </div>
-</body>
 
-</html>
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -55,8 +23,9 @@
             <div class="links">
               <ul>
                 <li><a href="index.php?uc=prestations">Prestations</a></li>
-                <li><a href="index.php?uc=">Produits</a></li>
+                <li><a href="index.php?uc=produits">Produits</a></li>
                 <li><a href="index.php?uc=contact">Contact</a></li>
+                <li><a href="index.php?uc=devis">Devis</a></li>
                 <li><a href="index.php?uc=login" class="btn">Se connecter</a></li>
               </ul>
             </div>
