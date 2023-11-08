@@ -3,10 +3,13 @@
 $servername ="localhost";
 $username = "root";
 $password = "";
-$dbname = "codeflix";
+$dbname = "lavage_auto";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
+function inscription(){
+	$req = 
+}
 if($conn->connect_error){
 	die("connection failed");
 }
@@ -14,9 +17,8 @@ if($conn->connect_error){
 $name = $_POST["name"];
 $email = $_POST["email"];
 $password = $_POST["password"];
-$salt = "codeflix";
+$salt = "lavage_auto";
 $password_encrypted = sha1($password.$salt);
-
 
 $sql = "INSERT INTO signup (name, email, password) 
 VALUES ('$name', '$email', '$password_encrypted')";
@@ -35,6 +37,4 @@ else{
 	</script>
 	<?php
 }
-
-
 ?>

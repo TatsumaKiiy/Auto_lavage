@@ -2,7 +2,7 @@
 session_start();
 
 include("vues/v_bandeau.php");
-
+include("util/LavageAuto.php");
 
 if (!isset($_REQUEST['uc']))
     $uc = 'accueil';
@@ -13,7 +13,6 @@ switch ($uc) {
     case 'accueil':
         include("vues/v_entete.php");
         include("vues/v_accueil.php");
-
     break;
 
     case 'prestations':
@@ -39,8 +38,12 @@ switch ($uc) {
         include("vues/v_autresPre.php");
     break;
     case 'login':
+        include('controler/connexion.php');
         include("vues/v_login.php");
-    
+    break;
+    case 'contact':
+        include('vues/v_entete.php');
+        include("vues/v_contact.php");
     break;
     
 }
