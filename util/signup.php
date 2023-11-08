@@ -7,6 +7,9 @@ $dbname = "lavage_auto";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
+function inscription(){
+	$req = 
+}
 if($conn->connect_error){
 	die("connection failed");
 }
@@ -16,7 +19,6 @@ $email = $_POST["email"];
 $password = $_POST["password"];
 $salt = "lavage_auto";
 $password_encrypted = sha1($password.$salt);
-
 
 $sql = "INSERT INTO signup (name, email, password) 
 VALUES ('$name', '$email', '$password_encrypted')";
@@ -35,6 +37,4 @@ else{
 	</script>
 	<?php
 }
-
-
 ?>

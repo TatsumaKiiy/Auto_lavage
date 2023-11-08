@@ -10,23 +10,29 @@
 <div class="container" id="container">
 <div class="form-container sign-up-container">
 
-<form action="">
+<form action="index.php?uc=login&action=register" method="POST">
 	<h1>Créer un compte</h1>
 	<div class="social-container">
 		<span></span>
 	</div>
-	<span></span>
-	<input type="text" name="name" placeholder="Name">
+	<span>or use your email for registration</span>
+	<input type="text" name="nom" placeholder="Name">
 	<input type="email" name="email" placeholder="Email">
 	<input type="password" name="password" placeholder="Password">
 	<button>S'inscrire</button>
 </form>
 </div>
+
+<div class="container" id="container">
 <div class="form-container sign-in-container">
-	<form action="#">
-		<h1>Se connecter</h1>
-		<div class="social-container">
-		<span></span>
+
+
+<form action="index.php?uc=login&action=signin"method="POST">
+	<h1>Se connecter</h1>
+	<div class="social-container">
+		<a href="#" class="social"><i class="fa fa-facebook"></i></a>
+		<a href="#" class="social"><i class="fa fa-google"></i></a>
+		<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
 	</div>
 	<span>or use your account</span>
 	<input type="email" name="email" placeholder="Email">
@@ -34,8 +40,9 @@
 	<a href="#">Mot de passe oublié</a>
 
 	<button>Se connecter</button>
-	</form>
+</form>
 </div>
+
 <div class="overlay-container">
 	<div class="overlay">
 		<div class="overlay-panel overlay-left">
